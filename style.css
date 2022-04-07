@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue; }
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.middle {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+}
+.boxOne{
+    width: 50%;
+}
+.img {
+    width: 400px;
+    height: 350px;
+    display: block;
+    margin-left: 100px;
+}
+.boxTwo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+.text {
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 70%;
+}
+.btn {
+    padding: 10px;
+    background: black;
+    color: aliceblue;
+}
